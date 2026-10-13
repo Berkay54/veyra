@@ -1,0 +1,132 @@
+- main [ref=f18e3]:
+  - region "VEYRA sunglasses campaign" [ref=f18e4]:
+    - generic [ref=f18e5]:
+      - generic "VEYRA sunglasses in a studio. Scroll to explore the product motion." [ref=f18e6]
+      - generic [ref=f18e7]:
+        - link "VEYRA home" [ref=f18e8] [cursor=pointer]:
+          - /url: "#campaign"
+          - text: VEYRA
+        - navigation "Eyewear" [ref=f18e9]:
+          - link "Sun" [ref=f18e10] [cursor=pointer]:
+            - /url: "#collection"
+          - link "Optical" [ref=f18e11] [cursor=pointer]:
+            - /url: "#collection"
+        - navigation "Brand" [ref=f18e12]:
+          - link "Collection" [ref=f18e13] [cursor=pointer]:
+            - /url: "#collection"
+          - link "About" [ref=f18e14] [cursor=pointer]:
+            - /url: "#about"
+      - generic:
+        - heading "Form follows vision." [level=1]:
+          - generic: Form follows
+          - emphasis: vision.
+      - paragraph [ref=f18e16]: Designed foranother point of view.
+  - region [ref=f18e17]:
+    - generic [ref=f18e20]:
+      - generic [aria-hidden]: "02"
+      - paragraph [ref=f18e21]: 02 / Campaign
+      - heading "Beyond the frame." [level=2] [ref=f18e22]:
+        - generic [ref=f18e23]: Beyond
+        - emphasis [ref=f18e24]: the frame.
+      - generic [ref=f18e25]:
+        - generic "VEYRA campaign film. A close study of black eyewear in light and perspective." [ref=f18e26]
+        - generic [aria-hidden] [ref=f18e27]: VEYRA / Film study 02
+        - paragraph [ref=f18e28]: 05.04 sec — 24 fps
+      - paragraph [ref=f18e29]: A study in proportion,light and perspective.
+      - paragraph [ref=f18e30]: VEYRA / 2026
+  - region [ref=f18e31]:
+    - heading "03 / Collection" [level=2] [ref=f18e33]
+    - generic [ref=f18e34]:
+      - group "Choose an eyewear world":
+        - button "01 Sun Selected" [pressed] [ref=f18e35] [cursor=pointer]:
+          - generic [ref=f18e36]: "01"
+          - generic [ref=f18e37]: Sun
+          - generic [ref=f18e38]: Selected
+        - button "02 Optical Explore" [ref=f18e39] [cursor=pointer]:
+          - generic [ref=f18e40]: "02"
+          - generic [ref=f18e41]: Optical
+          - generic [ref=f18e42]: Explore
+      - generic [ref=f18e44]:
+        - paragraph [ref=f18e45]: Sun / 01
+        - paragraph [ref=f18e46]:
+          - generic [ref=f18e47]: Light,
+          - emphasis [ref=f18e48]: held in form.
+        - paragraph [ref=f18e49]: Sculpted silhouettesfor changing light.
+      - list "Sun frame studies":
+        - listitem [ref=f18e51]:
+          - figure [ref=f18e52]:
+            - 'img "FORM 01 sunglasses: bold black acetate rectangular frame with smoke lenses, viewed from three quarters." [ref=f18e54]'
+            - generic [ref=f18e55]:
+              - generic [aria-hidden] [ref=f18e56]: V / 01
+              - generic [ref=f18e57]:
+                - heading "FORM 01" [level=3] [ref=f18e58]
+                - paragraph [ref=f18e59]: Black acetateSmoke lens
+        - listitem [ref=f18e60]:
+          - figure [ref=f18e61]:
+            - 'img "LINE 02 sunglasses: slim graphite acetate frame with softly oval smoke lenses and fine temples." [ref=f18e63]'
+            - generic [ref=f18e64]:
+              - generic [aria-hidden] [ref=f18e65]: V / 02
+              - generic [ref=f18e66]:
+                - heading "LINE 02" [level=3] [ref=f18e67]
+                - paragraph [ref=f18e68]: Graphite acetateSmoke lens
+        - listitem [ref=f18e69]:
+          - figure [ref=f18e70]:
+            - 'img "ARC 03 sunglasses: champagne metal frame with rounded geometric taupe lenses and clear nose pads." [ref=f18e72]'
+            - generic [ref=f18e73]:
+              - generic [aria-hidden] [ref=f18e74]: V / 03
+              - generic [ref=f18e75]:
+                - heading "ARC 03" [level=3] [ref=f18e76]
+                - paragraph [ref=f18e77]: Brushed metalTaupe lens
+  - region [ref=f18e78]:
+    - generic [ref=f18e79]:
+      - generic [ref=f18e80]:
+        - generic "Eyewear construction film. Scroll to separate and reassemble the object." [ref=f18e81]
+        - img [aria-hidden]:
+          - generic: "01"
+          - generic: "02"
+          - generic: "03"
+      - paragraph [ref=f18e82]: 04 / Construction
+      - generic [ref=f18e83]:
+        - heading "Anatomy of an object" [level=2] [ref=f18e84]
+        - paragraph [ref=f18e85]:
+          - text: Designed as a whole.
+          - emphasis [ref=f18e86]: Considered in parts.
+      - list "Construction study" [ref=f18e87]:
+        - listitem [ref=f18e88]:
+          - generic [aria-hidden] [ref=f18e89]: "01"
+          - text: Frame
+        - listitem [ref=f18e90]:
+          - generic [aria-hidden] [ref=f18e91]: "02"
+          - text: Lens
+        - listitem [ref=f18e92]:
+          - generic [aria-hidden] [ref=f18e93]: "03"
+          - text: Temple
+      - paragraph [ref=f18e94]:
+        - text: Built as an object.
+        - emphasis [ref=f18e95]: Worn as a point of view.
+      - paragraph [aria-hidden] [ref=f18e96]: VEYRA / Object study 04
+  - region [ref=f18e97]:
+    - generic [ref=f18e99]:
+      - paragraph [ref=f18e101]: 05 / Perspective
+      - generic [ref=f18e102]:
+        - heading "Through VEYRA" [level=2] [ref=f18e103]
+        - paragraph [ref=f18e104]:
+          - text: Designed not to change the face,
+          - emphasis [ref=f18e105]: but the way the world is framed.
+      - figure "01 / Portrait" [ref=f18e106]:
+        - img "A man in plain black acetate sunglasses and charcoal tailoring in a sunlit limestone courtyard." [ref=f18e109]
+      - figure "02 / Detail Through the lens" [ref=f18e111]:
+        - img "Close study of black acetate, smoke lenses reflecting architecture, an unmarked temple, and sunlit skin." [ref=f18e114]
+        - generic [ref=f18e116]:
+          - text: 02 / Detail
+          - generic [ref=f18e117]: Through the lens
+      - figure "03 / Perspective" [ref=f18e118]:
+        - img "The same model stands among limestone piers and long afternoon shadows, with open architectural space around him." [ref=f18e121]
+        - heading "A different point of view." [level=3] [ref=f18e123]:
+          - generic [ref=f18e124]: A different
+          - emphasis [ref=f18e125]: point of view.
+      - generic [ref=f18e126]:
+        - paragraph [ref=f18e127]: VEYRAIndependent Eyewear Study2026
+        - paragraph [ref=f18e128]:
+          - text: Objects for seeing differently.
+          - generic [ref=f18e129]: Fictional portfolio brand

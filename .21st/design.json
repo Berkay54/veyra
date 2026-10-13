@@ -1,0 +1,121 @@
+﻿{
+    "version":  1,
+    "project":  {
+                    "name":  "veyra",
+                    "productType":  "Premium European eyewear editorial",
+                    "stack":  [
+                                  "react",
+                                  "vite"
+                              ]
+                },
+    "sources":  {
+                    "tokens":  [
+                                   "src/index.css",
+                                   "src/App.css",
+                                   "src/CollectionExperience.css"
+                               ],
+                    "components":  [
+
+                                   ],
+                    "assets":  [
+                                   "src/assets"
+                               ],
+                    "instructions":  [
+
+                                     ]
+                },
+    "design":  {
+                   "colorMode":  "light",
+                   "colors":  {
+
+                              },
+                   "typography":  {
+                                      "--font-editorial":  {
+                                                               "value":  "\u0027Instrument Serif\u0027, Georgia, serif",
+                                                               "source":  "src/index.css"
+                                                           }
+                                  },
+                   "spacing":  {
+                                   "--gutter":  {
+                                                    "value":  "22px",
+                                                    "source":  "src/app.css"
+                                                }
+                               },
+                   "radius":  {
+
+                              },
+                   "shadows":  {
+
+                               },
+                   "motion":  {
+
+                              },
+                   "density":  "spacious"
+               },
+    "components":  {
+                       "installed":  [
+
+                                     ],
+                       "preferredPrimitives":  [
+                                                   "Native semantic buttons and anchors",
+                                                   "React controlled category selection",
+                                                   "Existing GSAP for video only"
+                                               ],
+                       "patterns":  [
+
+                                    ]
+                   },
+    "constraints":  {
+                        "must":  [
+                                     "Preserve approved hero and cinematic video systems",
+                                     "Only Instrument Sans and Instrument Serif",
+                                     "Phase 3 uses normal scrolling and typography only",
+                                     "No new animation dependencies"
+                                 ],
+                        "avoid":  [
+                                      "Cards and pills",
+                                      "Stock or generated eyewear images",
+                                      "Generic ecommerce grids",
+                                      "Ambient motion"
+                                  ]
+                    },
+    "decisions":  [
+                      {
+                          "phase":  "Phase 3",
+                          "status":  "Implemented for visual review",
+                          "direction":  "Asymmetric fashion index on mineral paper",
+                          "interaction":  "Indexed selection with a restrained masked editorial reveal",
+                          "inspiration":  "21st Editorial service list by ibrandify; conceptual adaptation only"
+                      },
+                      {
+                          "phase":  "5",
+                          "concept":  "Through VEYRA",
+                          "composition":  "Three original coherent fashion images: asymmetric portrait, offset detail, wide architecture; normal scroll",
+                          "interaction":  "One photographic mask language with subtle scroll-controlled optical region; reduced-motion static",
+                          "provenance":  "Original generated fictional campaign, docs/through-veyra.md; supersedes typography-only manifesto"
+                      }
+                  ],
+    "evidence":  [
+                     {
+                         "fact":  "design.colorMode:light",
+                         "source":  "src/index.css, src/app.css"
+                     },
+                     {
+                         "fact":  "design.tokens",
+                         "source":  "src/app.css"
+                     },
+                     {
+                         "fact":  "design.tokens",
+                         "source":  "src/index.css"
+                     },
+                     {
+                         "fact":  "project.stack:react",
+                         "source":  "package.json"
+                     },
+                     {
+                         "fact":  "project.stack:vite",
+                         "source":  "package.json"
+                     }
+                 ],
+    "generatedAt":  "2026-10-13T09:24:37.251Z"
+}

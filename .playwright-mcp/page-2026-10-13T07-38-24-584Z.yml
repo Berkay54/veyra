@@ -1,0 +1,7 @@
+- main [ref=f3e3]:
+  - region "VEYRA sunglasses" [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - generic "VEYRA sunglasses in a studio. Scroll to explore the product motion." [ref=f3e6]
+      - generic [ref=f3e7]: VEYRA
+  - region "End of hero test" [ref=f3e8]:
+    - paragraph [ref=f3e9]: End of hero — normal page scrolling continues.

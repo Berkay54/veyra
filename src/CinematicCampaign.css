@@ -1,0 +1,281 @@
+﻿.cinematic-chapter {
+  --chapter-gutter: clamp(28px, 3.35vw, 64px);
+  color: #eee6dc;
+  background: #000;
+}
+
+.cinematic-handoff {
+  height: 60svh;
+  min-height: 390px;
+  background:
+    linear-gradient(180deg, transparent 0%, #191715 76%, #000 100%),
+    linear-gradient(90deg, #dac6b2 0%, #e2cebd 50%, #e8d3c4 100%);
+}
+
+.cinematic-stage {
+  height: 140svh;
+}
+
+.cinematic-scene {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-inline: var(--chapter-gutter);
+  background: #000;
+}
+
+.chapter-label,
+.chapter-metadata {
+  position: absolute;
+  left: var(--chapter-gutter);
+  color: #aaa198;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.chapter-label {
+  top: clamp(44px, 8svh, 80px);
+}
+
+.chapter-folio {
+  position: absolute;
+  top: 17svh;
+  left: calc(var(--chapter-gutter) - 24px);
+  color: #24211e;
+  font-size: clamp(280px, 32vw, 500px);
+  font-weight: 500;
+  line-height: 0.82;
+  letter-spacing: -0.09em;
+  pointer-events: none;
+}
+
+.chapter-label > span:first-child {
+  color: #d1c7bb;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.chapter-label .chapter-descriptor {
+  margin-left: 10px;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+}
+
+.chapter-metadata {
+  bottom: 7svh;
+}
+
+.chapter-heading {
+  z-index: 1;
+  position: absolute;
+  top: 32svh;
+  left: var(--chapter-gutter);
+  margin: 0;
+  font-family: var(--font-editorial);
+  font-size: clamp(64px, 5.6vw, 90px);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+}
+
+.chapter-heading span,
+.chapter-heading em {
+  display: block;
+}
+
+.chapter-heading em {
+  margin-left: clamp(24px, 3.4vw, 52px);
+  font-weight: 400;
+}
+
+.chapter-note {
+  position: absolute;
+  left: calc(var(--chapter-gutter) + 7vw);
+  /* The rule aligns with the film-properties baseline at each desktop width. */
+  top: calc(50svh + 13.5vw + 52px);
+  color: #bdb4aa;
+  font-size: 13px;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
+
+.chapter-note::before {
+  content: '';
+  position: absolute;
+  top: -28px;
+  left: 0;
+  width: clamp(140px, 24vw, 340px);
+  border-top: 1px solid #3b3530;
+}
+
+.cinematic-film {
+  position: relative;
+  grid-column: 2;
+  justify-self: end;
+  width: 48vw;
+}
+
+.cinematic-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+
+.film-notation {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 18px);
+  color: #aaa198;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.film-properties {
+  position: absolute;
+  top: calc(100% + 18px);
+  left: 0;
+  color: #a2988d;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.film-properties span {
+  margin-inline: 8px;
+  color: #655c52;
+}
+
+.campaign-continuation {
+  min-height: 60svh;
+  padding: 48px clamp(28px, 3.35vw, 64px);
+  color: #69645c;
+  background: #e9e5dd;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.13em;
+}
+
+@media (max-width: 900px) {
+  .cinematic-scene {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto minmax(0, 1fr) auto auto;
+    gap: 24px;
+    padding: 48px var(--chapter-gutter) 40px;
+  }
+
+  .chapter-label,
+  .chapter-heading,
+  .chapter-note,
+  .chapter-metadata {
+    position: static;
+  }
+
+  .chapter-heading {
+    font-size: clamp(48px, 7.5vw, 64px);
+  }
+
+  .cinematic-film {
+    grid-column: 1;
+    width: 100%;
+    align-self: center;
+  }
+
+  .chapter-note {
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    margin-left: 28%;
+    font-size: 12px;
+  }
+
+  .chapter-note::before {
+    width: 84px;
+    top: -20px;
+  }
+
+  .chapter-folio {
+    top: 90px;
+    left: 0;
+    font-size: 210px;
+    color: #211e1b;
+  }
+
+  .chapter-heading em {
+    margin-left: 24px;
+  }
+
+  .chapter-metadata {
+    font-size: 9px;
+  }
+
+  .film-notation {
+    bottom: calc(100% + 12px);
+    font-size: 8px;
+  }
+
+  .film-properties {
+    top: calc(100% + 12px);
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cinematic-chapter {
+    --chapter-gutter: 22px;
+  }
+
+  .cinematic-handoff {
+    min-height: 430px;
+  }
+
+  .chapter-heading {
+    font-size: 54px;
+  }
+
+  .campaign-continuation {
+    padding: 36px 22px;
+  }
+}
+
+@media (max-width: 900px) and (max-height: 700px) {
+  .cinematic-scene {
+    gap: 18px;
+    padding-block: 28px;
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .chapter-heading {
+    font-size: 44px;
+  }
+
+  .cinematic-film {
+    margin-block: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cinematic-stage {
+    height: auto;
+  }
+
+  .cinematic-scene {
+    position: relative;
+  }
+}
