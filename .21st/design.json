@@ -21,7 +21,7 @@
                                    "src/assets"
                                ],
                     "instructions":  [
-
+                                   "Preserve the six-chapter editorial narrative and finish in a quiet warm mineral colophon."
                                      ]
                 },
     "design":  {
@@ -59,7 +59,7 @@
                        "preferredPrimitives":  [
                                                    "Native semantic buttons and anchors",
                                                    "React controlled category selection",
-                                                   "Existing GSAP for video only"
+                                                   "Existing GSAP for isolated media and closing wordmark motion"
                                                ],
                        "patterns":  [
 
@@ -93,6 +93,13 @@
                           "composition":  "Three original coherent fashion images: asymmetric portrait, offset detail, wide architecture; normal scroll",
                           "interaction":  "One photographic mask language with subtle scroll-controlled optical region; reduced-motion static",
                           "provenance":  "Original generated fictional campaign, docs/through-veyra.md; supersedes typography-only manifesto"
+                      },
+                      {
+                          "phase":  "6",
+                          "status":  "Implemented for final visual review",
+                          "direction":  "Asymmetric closing frame with a large resolving VEYRA masthead and compact colophon footer",
+                          "interaction":  "One reversible GSAP tracking interpolation; reduced motion uses final wordmark spacing",
+                          "inspiration":  "Luxury fashion-book closing spread; no catalog component imported"
                       }
                   ],
     "evidence":  [

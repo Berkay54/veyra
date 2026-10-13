@@ -7,6 +7,7 @@ import HeroHeader from './HeroHeader'
 import CollectionExperience from './CollectionExperience'
 import CraftExperience from './CraftExperience'
 import PerspectiveExperience from './PerspectiveExperience'
+import ClosingExperience from './ClosingExperience'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -131,6 +132,7 @@ function App() {
       <CollectionExperience activeCategory={activeCategory} onSelectCategory={setActiveCategory} />
       <CraftExperience />
       <PerspectiveExperience />
+      <ClosingExperience onSelectCategory={setActiveCategory} />
     </main>
   )
 }
